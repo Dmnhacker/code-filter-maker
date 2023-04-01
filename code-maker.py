@@ -119,10 +119,6 @@ clear()
 try:
     get = int(input("inter 1 for give new code >>>   "))
 
-print(f"{pink} ")
-
-print(f"{red} ")
-
 if get == 1:
     print(Fore.blue + codereal)
     
