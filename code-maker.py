@@ -119,7 +119,7 @@ print ("")
 get = int(input("inter 1 for give new code >>>   "))
 
 if get == 1:
-    print(color.blue+codereal)
+    print(Fore.BLUE+codereal)
     time.sleep(1)
     print(' 20 sayer 30 mostahjan ')
     time.sleep(1)
