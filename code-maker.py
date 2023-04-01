@@ -115,7 +115,7 @@ time.sleep(0.5)
 print (Fore.LIGHTYELLOW_EX + "installed!")
 time.sleep(3)
 print ("")
-clear()
+
 get = int(input("inter 1 for give new code >>>   "))
 
 if get == 1:
