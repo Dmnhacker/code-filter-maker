@@ -116,16 +116,12 @@ print (Fore.LIGHTYELLOW_EX + "installed!")
 time.sleep(3)
 print ("")
 clear()
-try:
-    get = int(input("inter 1 for give new code >>>   "))
+get = int(input("inter 1 for give new code >>>   "))
 
 if get == 1:
     print(Fore.blue + codereal)
-    
     time.sleep(1)
-    print(f"{red}")
-    print((' 20 sayer 30 mostahjan '))
-    print(f"{green}")
+    print(' 20 sayer 30 mostahjan ')
     time.sleep(1)
     
 time.sleep(0.6)
