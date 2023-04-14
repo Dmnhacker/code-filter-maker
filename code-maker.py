@@ -90,6 +90,7 @@ print (Fore.LIGHTGREEN_EX + " programing by DMNHACKER        ")
 print (Fore.BLUE + "Supports rubika v3.11 ")
 print (Fore.RED + " servers.....ON          ")
 print(Fore.WHITE+'\n'+Fore.LIGHTBLUE_EX)
+print (Fore.RED + " ravesh 20 ta sayer 30 ta mostahjan        ")
 print(f"{blue} ")
 time.sleep(2.5)
 print ("")
@@ -120,9 +121,7 @@ get = int(input("inter 1 for give new code >>>   "))
 
 if get == 1:
     print(Fore.BLUE+codereal)
-    time.sleep(1)
-    print(' 20 sayer 30 mostahjan ')
-    time.sleep(1)
+    time.sleep(2)
     
 time.sleep(0.6)
 
