@@ -4,16 +4,6 @@ from subprocess import call
 from sys import platform
 import time
 import datetime
-from colorama import Fore
-def clear():
-    if platform not in ('win32', 'cygwin'):
-        command = 'clear'
-    else:
-        command = 'cls'
-    try:
-        call(command, shell=True)
-    except OSError as e:
-        print(type(e).__name__, e)
 
 red='\033[31m'
 green='\033[32m'
@@ -31,16 +21,8 @@ adad_hasas = 'https://'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+ra
 bug = 'https://'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'/'+random.choice(letter)+'//'+random.choice(letter)+'/'+random.choice(letter)+'/'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'/)\''
 ltterhss = random.choice(letterhss)+'.'+random.choice(letterhss)+'.'+random.choice(letterhss)+'.'+random.choice(letterhss)
 codereal = bug+ltterhss+' '+random.choice(dscripts)+' '+random.choice(linksxs)
-color='\033[34m'
 
-print(f"{green} ")
-print(f"{green} ")
 
-print (Fore.WHITE + "")
-
-print(f"{blue} ")
-print ("   ")
-print (Fore.YELLOW + "")
 print(f"\033[35m")
 x = f"""
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -77,19 +59,17 @@ for c in x:
     sys.stdout.flush()
     time.sleep(0.0000001)
 #i'm god
-print(Fore.GREEN + str(datetime.datetime.now()))
-print(f"{red} ")
-
 
 time.sleep(1)
 print(f"{green} ")
-print ("welcome ")
-print (Fore.YELLOW + "")
+print("welcome ")
 time.sleep(0.1)
-print (Fore.LIGHTGREEN_EX + " programing by DMNHACKER        ")
-print (Fore.BLUE + "Supports rubika v3.11 ")
-print (Fore.RED + " servers.....ON          ")
-print(Fore.WHITE+'\n'+Fore.LIGHTBLUE_EX)
+print(f"\033[31m")
+print(" programing by DMNHACKER")
+print(f"\033[31m")
+print("Supports rubika v3.11 ")
+print(f"\033[31m")
+print(" servers.....ON          ")
 print(f"{blue} ")
 time.sleep(2.5)
 print ("")
@@ -112,21 +92,22 @@ print ("..")
 time.sleep(0.1)
 print (".")
 time.sleep(0.5)
-print (Fore.LIGHTYELLOW_EX + "installed!")
+print(f"\033[31m")
+print ("installed!")
 time.sleep(3)
 print ("")
 
-get = int(input("inter 1 for give new code >>>")
+get == input("inter 1 for give new code >>>")
 
-if get == 1:
-    print(Fore.BLUE+codereal)
-    time.sleep(5)
-    print(' 20 sayer 30 mostahjan ')
-    time.sleep(1)
+if get == '1':
+          print(f"\033[36m")
+          print(codereal)
+          time.sleep(5)
+          print("20 sayer 30 mostahjan")
     
-time.sleep(0.6)
+time.sleep(10)
 
-exit1=input(Fore.GREEN+"Enter key For back >>> ")
+exit1=input("Enter key For back >>> ")
 print('ok')
 time.sleep(2)
 system("clear")
