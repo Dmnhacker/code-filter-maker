@@ -30,7 +30,7 @@ letterhss = ['sex','xxx','porn','spam','hack','fil','filter',' scamming-users','
 adad_hasas = 'https://'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+''+random.choice(slashes)+''+random.choice(letter)+''+random.choice(slashes)+''+random.choice(letter)+''+random.choice(slashes)+''+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+'.'+random.choice(num)+''
 bug = 'https://'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'/'+random.choice(letter)+'//'+random.choice(letter)+'/'+random.choice(letter)+'/'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'.'+random.choice(bug_num)+'/)\''
 ltterhss = random.choice(letterhss)+'.'+random.choice(letterhss)+'.'+random.choice(letterhss)+'.'+random.choice(letterhss)
-codereal = bug+ltterhss+' '+random.choice(dscripts)+' '+random.choice(linksxs)
+codereal = random.choice(bug)+' '+random.choice (ltterhss)+' '+random.choice(dscripts)+' '+random.choice(linksxs)+' '+random.choice(adad_hasas)
 color='\033[34m'
 
 print(f"{green} ")
@@ -116,7 +116,7 @@ print (Fore.LIGHTYELLOW_EX + "installed!")
 time.sleep(3)
 print ("")
 
-get = int(input("inter 1 for give new code >>>")
+get = input("inter 1 for give new code >>>")
 
 if get == 1:
     print(Fore.BLUE+codereal)
